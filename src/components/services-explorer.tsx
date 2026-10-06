@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { ArrowRight, Search, X } from "lucide-react";
 import { serviceAreas } from "@/data/services";
 import { serviceDetails } from "@/data/service-details";
-import { CopyDetailLink, clearDetailLink, setDetailLink, useDetailLink } from "@/components/detail-link";
+import { clearDetailLink, setDetailLink, useDetailLink } from "@/components/detail-link";
 
 const normalize = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, "");
 const entries = serviceAreas.flatMap((area) => area.services.map((service) => ({ ...service, area: area.title })));
@@ -163,7 +163,6 @@ export function ServicesExplorer() {
         {details && (
           <div className="service-detail-content">
             <p id="service-detail-summary"><Text value={details.overview} /></p>
-            {activeService && <CopyDetailLink key={activeService.path} kind="service" id={activeService.path} />}
             <div className="service-detail-audience">
               <h3><Text value={"Who it is for"} /></h3>
               <p><Text value={details.audience} /></p>

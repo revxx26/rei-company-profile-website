@@ -14,19 +14,19 @@ async function files(directory) {
 }
 // Compare actual casing: Render runs Linux, whereas Windows accepts mismatches.
 const available = new Set((await files(path.join(root, "public"))).map((file) => "/" + path.relative(path.join(root, "public"), file).split(path.sep).join("/")));
-const required = new Set(["/publications/pdf.worker.min.mjs", "/publications/pdfjs-LICENSE.txt"]);
+const required = new Set(["/publications/pdf.worker.min.mjs", "/publications/pdf-worker-compat.mjs", "/publications/browser-polyfills.mjs", "/publications/pdfjs-LICENSE.txt"]);
 const sourceFiles = await files(path.join(root, "src"));
 const sourcePaths = new Set(sourceFiles.map((file) => path.relative(path.join(root, "src"), file).split(path.sep).join("/")));
 const invalidImports = [];
 for (const file of sourceFiles) {
-  if (!/\.(tsx?|json|css)$/.test(file)) continue;
+  if (!/\.(tsx?|js|json|css)$/.test(file)) continue;
   const text = await readFile(file, "utf8");
   for (const match of text.matchAll(/["'`](\/(?:images|videos|publications)\/[^"'`\s]+)["'`]/g)) {
     if (!match[1].includes("${")) required.add(match[1]);
   }
   for (const match of text.matchAll(/(?:from\s*|import\s*\()["']@\/([^"']+)["']/g)) {
     const target = match[1];
-    if (![target, ...[".ts", ".tsx", ".json", ".css", "/index.ts", "/index.tsx"].map((extension) => target + extension)].some((candidate) => sourcePaths.has(candidate))) {
+    if (![target, ...[".ts", ".tsx", ".js", ".json", ".css", "/index.ts", "/index.tsx"].map((extension) => target + extension)].some((candidate) => sourcePaths.has(candidate))) {
       invalidImports.push(`${path.relative(root, file)}: @/${target}`);
     }
   }

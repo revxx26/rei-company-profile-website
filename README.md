@@ -28,7 +28,7 @@ Follow [DEPLOY-RENDER.md](./DEPLOY-RENDER.md). An optional `render.yaml` Bluepri
 
 ## Current behavior
 
-- English and Indonesian interface; no dark mode.
+- English and Indonesian interface; language control inside the navigation menu on mobile, in the header on desktop; no dark mode.
 - Transparent fixed header with blur after scrolling. Language selector in the header; consultation is available via the floating button and Contact.
 - Muted looping consultancy meeting video in the hero, with still-image fallback and reduced-motion support.
 - Supported/certified logo rails, an autoplay About photo gallery with manual arrows, and company statistics counting once.
@@ -37,6 +37,7 @@ Follow [DEPLOY-RENDER.md](./DEPLOY-RENDER.md). An optional `render.yaml` Bluepri
 - News articles, regulation dialogs with full-size images, and local magazine PDF preview. Responsive publication limits of six/four/two, with View more/View less.
 - Contact form prepares a WhatsApp or email draft with entered data; it does not send messages through a backend or store leads.
 - Subtle scroll reveal once per content group, respecting reduced motion. Buttons and cards have pressed feedback in addition to desktop hover.
+- iOS 16.3 compatibility adjustments: native dialog dropdowns, Safari 16.3 build target, standard CSS styling with Preflight only, and a polyfilled legacy PDF.js reader/worker. Text inputs use 16 px font on mobile to avoid Safari focus zoom. Native iOS 16.3 device validation remains required; this is below Next.js's default supported browser baseline.
 
 ## Content and limitations
 

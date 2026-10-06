@@ -47,9 +47,9 @@ export function Text({ value }: { value: ReactNode }) {
   const { t } = useLocale();
   return typeof value === "string" ? t(value) : value;
 }
-export function PreferenceControls() {
+export function PreferenceControls({ className = "" }: { className?: string }) {
   const { language, t } = useLocale();
-  return <div className="preference-controls">
+  return <div className={`preference-controls ${className}`}>
     <SiteSelect className="language-select" label={t("Language")} value={language} onChange={(value) => save(value as Language)} triggerLabel={language.toUpperCase()} icon={<Languages size={17} aria-hidden="true" />} options={[{ value: "en", label: "English", code: "EN" }, { value: "id", label: "Bahasa Indonesia", code: "ID" }]} />
   </div>;
 }

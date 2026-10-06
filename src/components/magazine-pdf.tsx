@@ -23,10 +23,10 @@ export function MagazinePdf({ src, title }: { src: string; title: string }) {
     let loading: PDFDocumentLoadingTask | undefined;
     async function load() {
       try {
-        const pdfjs = await import("pdfjs-dist");
+        const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
         if (disposed) return;
-        pdfjs.GlobalWorkerOptions.workerSrc = "/publications/pdf.worker.min.mjs";
-        loading = pdfjs.getDocument({ url: src });
+        pdfjs.GlobalWorkerOptions.workerSrc = "/publications/pdf-worker-compat.mjs";
+        loading = pdfjs.getDocument({ url: src, isOffscreenCanvasSupported: false, isImageDecoderSupported: false });
         const pdf = await loading.promise;
         if (!disposed) setDocument(pdf);
       } catch {

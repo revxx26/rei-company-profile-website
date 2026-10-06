@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth" className={`${manrope.variable} antialiased`}>
+    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth" className={manrope.variable}>
       <body>
         <Script id="rei-preferences-init" strategy="beforeInteractive">{`try { var p=JSON.parse(localStorage.getItem('rei-preferences')||'{}')||{}; document.documentElement.lang=p.language==='id'?'id':'en'; } catch {}`}</Script>
         <SitePreferences><SiteInteractions>{children}</SiteInteractions></SitePreferences>

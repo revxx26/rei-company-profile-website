@@ -17,6 +17,7 @@ import { trainingEvents } from "@/data/training-events";
 import { clearDetailLink, setDetailLink, useDetailLink } from "@/components/detail-link";
 import { PreferenceControls } from "@/components/site-preferences";
 import {
+  ArrowUpRight,
   ExternalLink,
   Mail,
   Menu,
@@ -269,7 +270,7 @@ export function Header({ innerPage = false }: { innerPage?: boolean }) {
               </a>
             ))}
           </nav>
-          <PreferenceControls />
+          <PreferenceControls className="header-preferences" />
           <button
             ref={menuButton}
             type="button"
@@ -293,10 +294,13 @@ export function Header({ innerPage = false }: { innerPage?: boolean }) {
         id="mobile-navigation"
         className="mobile-menu"
         aria-labelledby="mobile-menu-title"
-        onClose={onMenuClose}
+        onClose={(event) => { if (event.target === event.currentTarget) onMenuClose(); }}
       >
         <div className="mobile-menu-top">
-          <span id="mobile-menu-title"><Text value={"REI SISTEM"} /></span>
+          <a className="mobile-menu-brand" href={innerPage ? "/" : "#"} onClick={closeMenu}>
+            <Image src="/images/rei-logo.png" alt="" width={44} height={44} />
+            <span id="mobile-menu-title">REI SISTEM<small>INDONESIA GROUP</small></span>
+          </a>
           <button
             className="icon-button"
             aria-label={t("Close navigation menu")}
@@ -307,13 +311,13 @@ export function Header({ innerPage = false }: { innerPage?: boolean }) {
           </button>
         </div>
         <nav aria-label={t("Mobile navigation")}>
-          {navigation.map((item, index) => (
+          {navigation.map((item) => (
             <a key={item.href} href={`${innerPage ? "/" : ""}${item.href}`} onClick={closeMenu}>
-              <span><Text value={"0"} />{index + 1}</span>
-              <Text value={item.label} />
+              <Text value={item.label} /><ArrowUpRight size={18} aria-hidden="true" />
             </a>
           ))}
         </nav>
+        <div className="mobile-menu-language"><span><Text value="Language" /></span><PreferenceControls /></div>
         <button
           className="button button-navy"
           onClick={() => {
