@@ -1,0 +1,47 @@
+[
+  {
+    "blur": "blur(18px)",
+    "contentInside": true,
+    "headerOverflow": false,
+    "headerTop": 8,
+    "pageOverflow": false,
+    "radius": "14px",
+    "width": 320
+  },
+  {
+    "blur": "blur(18px)",
+    "contentInside": true,
+    "headerOverflow": false,
+    "headerTop": 8,
+    "pageOverflow": false,
+    "radius": "14px",
+    "width": 390
+  },
+  {
+    "blur": "blur(18px)",
+    "contentInside": true,
+    "headerOverflow": false,
+    "headerTop": 12,
+    "pageOverflow": false,
+    "radius": "18px",
+    "width": 768
+  },
+  {
+    "blur": "blur(18px)",
+    "contentInside": true,
+    "headerOverflow": false,
+    "headerTop": 12,
+    "pageOverflow": false,
+    "radius": "18px",
+    "width": 1024
+  },
+  {
+    "blur": "blur(18px)",
+    "contentInside": true,
+    "headerOverflow": false,
+    "headerTop": 12,
+    "pageOverflow": false,
+    "radius": "18px",
+    "width": 1440
+  }
+]

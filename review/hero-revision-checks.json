@@ -1,0 +1,30 @@
+[
+  {
+    "clientWidth": 305,
+    "headlineScroll": 273,
+    "headlineWidth": 273,
+    "pageWidth": 305,
+    "width": 320
+  },
+  {
+    "clientWidth": 753,
+    "headlineScroll": 689,
+    "headlineWidth": 689,
+    "pageWidth": 753,
+    "width": 768
+  },
+  {
+    "clientWidth": 1009,
+    "headlineScroll": 945,
+    "headlineWidth": 945,
+    "pageWidth": 1009,
+    "width": 1024
+  },
+  {
+    "clientWidth": 1425,
+    "headlineScroll": 1248,
+    "headlineWidth": 1248,
+    "pageWidth": 1425,
+    "width": 1440
+  }
+]

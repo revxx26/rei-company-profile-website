@@ -1,0 +1,66 @@
+{
+  "responsive": [
+    {
+      "docWidth": 320,
+      "galleryHeight": 340,
+      "iframeCount": 0,
+      "navScrollWidth": 288,
+      "navWidth": 288,
+      "scrollWidth": 320,
+      "videoColumns": "288px",
+      "width": 320
+    },
+    {
+      "docWidth": 390,
+      "galleryHeight": 340,
+      "iframeCount": 0,
+      "navScrollWidth": 358,
+      "navWidth": 358,
+      "scrollWidth": 390,
+      "videoColumns": "358px",
+      "width": 390
+    },
+    {
+      "docWidth": 768,
+      "galleryHeight": 390,
+      "iframeCount": 0,
+      "navScrollWidth": 336,
+      "navWidth": 336,
+      "scrollWidth": 768,
+      "videoColumns": "221.328px 221.328px 221.328px",
+      "width": 768
+    },
+    {
+      "docWidth": 1024,
+      "galleryHeight": 360,
+      "iframeCount": 0,
+      "navScrollWidth": 460,
+      "navWidth": 460,
+      "scrollWidth": 1024,
+      "videoColumns": "301.328px 301.328px 301.344px",
+      "width": 1024
+    },
+    {
+      "docWidth": 1440,
+      "galleryHeight": 360,
+      "iframeCount": 0,
+      "navScrollWidth": 592,
+      "navWidth": 591.5,
+      "scrollWidth": 1440,
+      "videoColumns": "397.328px 397.328px 397.344px",
+      "width": 1440
+    }
+  ],
+  "autoplay": {
+    "start": "1 of 5",
+    "afterWaiting": "3 of 5",
+    "intervalMs": 6000,
+    "fadeMs": 800
+  },
+  "videoSources": [
+    "HwhACSDbpvI",
+    "7iT3CRuV8K4",
+    "nBUfF45AZRQ"
+  ],
+  "console": []
+}

@@ -1,0 +1,45 @@
+{
+  "node": "v24.15.0",
+  "checks": [
+    {
+      "url": "/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "/news/client-gathering",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "/news/not-a-real-article",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "/images/rei-logo.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "url": "/publications/pdf.worker.min.mjs",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "/_next/image?url=%2Fimages%2Frei-logo.png&w=128&q=75",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "url": "/videos/consultancy.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/3133086"
+    },
+    {
+      "url": "/publications/system-magazine-32.pdf",
+      "status": 206,
+      "range": "bytes 0-1023/12555349"
+    }
+  ]
+}

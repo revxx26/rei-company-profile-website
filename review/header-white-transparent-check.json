@@ -1,0 +1,9 @@
+{
+  "background": "rgba(0, 0, 0, 0)",
+  "blur": "blur(18px)",
+  "border": "rgba(0, 0, 0, 0)",
+  "headerClass": "header header-past-hero header-scrolled",
+  "headerTop": 0,
+  "scrollY": 641,
+  "textColor": "rgb(20, 39, 72)"
+}

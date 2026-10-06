@@ -1,0 +1,180 @@
+{
+  "dialogs": [
+    {
+      "open": 1,
+      "poster": "/_next/image?url=%2Fimages%2Ftraining-october.jpeg&w=3840&q=75",
+      "title": "Food safety & laboratory"
+    },
+    {
+      "open": 1,
+      "poster": "/_next/image?url=%2Fimages%2Ftraining-october-2.jpeg&w=3840&q=75",
+      "title": "Food industry standards"
+    },
+    {
+      "open": 1,
+      "poster": "/_next/image?url=%2Fimages%2Ftraining-october-3.jpeg&w=3840&q=75",
+      "title": "Sustainability & management systems"
+    },
+    {
+      "open": 1,
+      "poster": "/_next/image?url=%2Fimages%2Ftraining-october-4.jpeg&w=3840&q=75",
+      "title": "Operations & audit training"
+    },
+    {
+      "open": 1,
+      "poster": "/_next/image?url=%2Fimages%2Ftraining-october-5.jpeg&w=3840&q=75",
+      "title": "Auditors & business improvement"
+    },
+    {
+      "open": 1,
+      "poster": "/_next/image?url=%2Fimages%2Ftraining-october-6.jpeg&w=3840&q=75",
+      "title": "Environment & food safety systems"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "FSSC 22000 & internal audit"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "FSSC 22000 & internal audit"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "HACCP audit support"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "CPPOB BPOM consultation"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "FSSC 22000 & internal audit"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "FSSC 22000 & internal audit"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "HACCP for cosmetics"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "HACCP & internal audit"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "FSSC 22000 lead auditor course"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "Calibration & practice"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "FSSC 22000 & internal audit"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "FSSC 22000 & internal audit"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "ISO 22000 & internal audit"
+    },
+    {
+      "archived": true,
+      "open": 1,
+      "title": "FSSC 22000 & internal audit"
+    }
+  ],
+  "responsive": [
+    {
+      "clientWidth": 305,
+      "pageWidth": 320,
+      "viewport": 320
+    },
+    {
+      "clientWidth": 753,
+      "pageWidth": 753,
+      "viewport": 768
+    },
+    {
+      "clientWidth": 1425,
+      "pageWidth": 1425,
+      "viewport": 1440
+    }
+  ],
+  "enquiry": {
+    "open": 1,
+    "overflow": "hidden",
+    "topic": "Food safety & laboratory, Programs 1–23, October 2026, Classroom, program: ISO 17025, program 1"
+  },
+  "closed": {
+    "open": 0,
+    "overflow": ""
+  },
+  "octoberEnd": {
+    "left": 1010,
+    "nextDisabled": true
+  },
+  "monthSwitch": {
+    "cards": 14,
+    "left": 3,
+    "previousDisabled": false
+  },
+  "archivePhoto": "FSSC 22000 & internal audit: original REI publication 2",
+  "archiveEnquiry": "A future session similar to FSSC 22000 & internal audit, PT Aloe Vera Indonesia, 21–22 September 2026",
+  "mobileInitial": {
+    "left": 3,
+    "pageWidth": 375,
+    "previousDisabled": true,
+    "viewport": 390
+  },
+  "mobileAfterNext": {
+    "left": 308,
+    "previousDisabled": false
+  },
+  "mobileDialog": {
+    "clientWidth": 335,
+    "close": {
+      "bottom": 81,
+      "height": 44,
+      "left": 299,
+      "right": 343,
+      "top": 37,
+      "width": 44,
+      "x": 299,
+      "y": 37
+    },
+    "scrollWidth": 335
+  },
+  "smallScreenFinal": {
+    "clientWidth": 305,
+    "left": 3,
+    "pageWidth": 305,
+    "previousDisabled": true,
+    "selectorWidth": 153.59375
+  },
+  "console": [],
+  "validation": {
+    "lint": "pass",
+    "productionBuild": "pass",
+    "totalCards": 20,
+    "octoberAgendas": 6,
+    "septemberEvents": 14
+  }
+}

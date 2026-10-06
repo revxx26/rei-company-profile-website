@@ -1,0 +1,182 @@
+[
+  {
+    "name": "BAP",
+    "file": "BAP_trimmed.png",
+    "width": 292,
+    "height": 103
+  },
+  {
+    "name": "BPOM",
+    "file": "BPOM_trimmed.png",
+    "width": 377,
+    "height": 349
+  },
+  {
+    "name": "BRCGS",
+    "file": "BRGCS_trimmed.png",
+    "width": 1335,
+    "height": 229
+  },
+  {
+    "name": "Ecovadis",
+    "file": "ECOV_trimmed.png",
+    "width": 660,
+    "height": 132
+  },
+  {
+    "name": "EHEDG",
+    "file": "EHEDG_trimmed.png",
+    "width": 366,
+    "height": 367
+  },
+  {
+    "name": "FDQI",
+    "file": "FDQI_trimmed.png",
+    "width": 446,
+    "height": 295
+  },
+  {
+    "name": "FOTS",
+    "file": "FOTS_trimmed.png",
+    "width": 366,
+    "height": 366
+  },
+  {
+    "name": "FSPCA",
+    "file": "FSPCA_trimmed.png",
+    "width": 742,
+    "height": 257
+  },
+  {
+    "name": "GGL",
+    "file": "GGL_trimmed.png",
+    "width": 486,
+    "height": 274
+  },
+  {
+    "name": "GlobalGAP",
+    "file": "GGAP_trimmed.png",
+    "width": 353,
+    "height": 355
+  },
+  {
+    "name": "GSA",
+    "file": "gsa_trimmed.png",
+    "width": 525,
+    "height": 207
+  },
+  {
+    "name": "IFS",
+    "file": "IFS_trimmed.png",
+    "width": 490,
+    "height": 220
+  },
+  {
+    "name": "ILW",
+    "file": "ILW_trimmed.png",
+    "width": 447,
+    "height": 318
+  },
+  {
+    "name": "ISO",
+    "file": "ISO_trimmed.png",
+    "width": 370,
+    "height": 344
+  },
+  {
+    "name": "ISPO",
+    "file": "ISPO_trimmed.png",
+    "width": 419,
+    "height": 419
+  },
+  {
+    "name": "K3",
+    "file": "K3_trimmed.png",
+    "width": 178,
+    "height": 172
+  },
+  {
+    "name": "Kemnaker",
+    "file": "Kemnaker_trimmed.png",
+    "width": 220,
+    "height": 188
+  },
+  {
+    "name": "LCA",
+    "file": "LCA_trimmed.png",
+    "width": 374,
+    "height": 262
+  },
+  {
+    "name": "MUI",
+    "file": "MUI_trimmed.png",
+    "width": 390,
+    "height": 394
+  },
+  {
+    "name": "Organik Indonesia",
+    "file": "ORG-INDO_trimmed.png",
+    "width": 364,
+    "height": 364
+  },
+  {
+    "name": "PCQI",
+    "file": "PCQI_trimmed.png",
+    "width": 331,
+    "height": 144
+  },
+  {
+    "name": "PECB",
+    "file": "PECB_trimmed.png",
+    "width": 370,
+    "height": 371
+  },
+  {
+    "name": "PROPER",
+    "file": "Proper_trimmed.png",
+    "width": 532,
+    "height": 258
+  },
+  {
+    "name": "RAF",
+    "file": "RAF_trimmed.png",
+    "width": 360,
+    "height": 360
+  },
+  {
+    "name": "RSPO",
+    "file": "RSPO_trimmed.png",
+    "width": 318,
+    "height": 100
+  },
+  {
+    "name": "SMK3",
+    "file": "smk3_trimmed.png",
+    "width": 456,
+    "height": 456
+  },
+  {
+    "name": "SNI",
+    "file": "SNI_trimmed.png",
+    "width": 188,
+    "height": 188
+  },
+  {
+    "name": "URSA",
+    "file": "URSA_trimmed.png",
+    "width": 243,
+    "height": 92
+  },
+  {
+    "name": "USDA Organic",
+    "file": "USDA_trimmed.png",
+    "width": 402,
+    "height": 402
+  },
+  {
+    "name": "YUM!",
+    "file": "YUM_trimmed.png",
+    "width": 406,
+    "height": 346
+  }
+]

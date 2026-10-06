@@ -1,0 +1,122 @@
+{
+  "initial": {
+    "controls": {
+      "bottom": 1123.203125,
+      "height": 54,
+      "left": 18,
+      "right": 1407,
+      "top": 1069.203125,
+      "width": 1389,
+      "x": 18,
+      "y": 1069.203125
+    },
+    "dots": [
+      {
+        "active": "true",
+        "label": "Show training slide 1 of 4"
+      },
+      {
+        "active": null,
+        "label": "Show training slide 2 of 4"
+      },
+      {
+        "active": null,
+        "label": "Show training slide 3 of 4"
+      },
+      {
+        "active": null,
+        "label": "Show training slide 4 of 4"
+      }
+    ],
+    "first": {
+      "bottom": 1037.203125,
+      "height": 606.71875,
+      "left": 88.5,
+      "right": 448.5,
+      "top": 430.484375,
+      "width": 360,
+      "x": 88.5,
+      "y": 430.484375
+    },
+    "indicators": {
+      "bottom": 1116.203125,
+      "height": 40,
+      "left": 656.5,
+      "right": 768.5,
+      "top": 1076.203125,
+      "width": 112,
+      "x": 656.5,
+      "y": 1076.203125
+    },
+    "rail": {
+      "bottom": 1041.203125,
+      "height": 614.71875,
+      "left": 0,
+      "right": 1425,
+      "top": 426.484375,
+      "width": 1425,
+      "x": 0,
+      "y": 426.484375
+    }
+  },
+  "afterNext": {
+    "active": "Show training slide 2 of 4",
+    "firstLeft": -295.5,
+    "left": 384
+  },
+  "last": {
+    "active": "Show training slide 4 of 4",
+    "left": 1032,
+    "max": 1032,
+    "nextDisabled": true
+  },
+  "monthReset": {
+    "active": "Show training slide 1 of 12",
+    "count": 14,
+    "left": 0
+  },
+  "mobileArchive": {
+    "clientWidth": 375,
+    "dotScrollWidth": 392,
+    "dotWidth": 239,
+    "dots": 14,
+    "pageWidth": 375
+  },
+  "mobileArchiveLast": {
+    "active": "Show training slide 14 of 14",
+    "dotLeft": 153,
+    "nextDisabled": true
+  },
+  "popup": {
+    "registration": "Enquire about registration",
+    "title": "Food safety & laboratory"
+  },
+  "responsive": [
+    {
+      "clientWidth": 305,
+      "dots": 6,
+      "pageWidth": 305,
+      "railWidth": 305,
+      "viewport": 320
+    },
+    {
+      "clientWidth": 753,
+      "dots": 5,
+      "pageWidth": 753,
+      "railWidth": 753,
+      "viewport": 768
+    },
+    {
+      "clientWidth": 1425,
+      "dots": 4,
+      "pageWidth": 1425,
+      "railWidth": 1425,
+      "viewport": 1440
+    }
+  ],
+  "console": [],
+  "validation": {
+    "lint": "pass",
+    "productionBuild": "pass"
+  }
+}

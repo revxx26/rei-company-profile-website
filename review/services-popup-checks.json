@@ -1,0 +1,558 @@
+{
+  "styles": {
+    "externalServiceLinks": 0,
+    "extraButtons": 0,
+    "eyebrows": 0,
+    "notSureAlign": "center",
+    "searchBackground": "rgba(255, 255, 255, 0.12)",
+    "searchBlur": "blur(14px)",
+    "selectedRadius": "12px"
+  },
+  "popupChecks": [
+    {
+      "category": "Quality & food safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 218,
+      "title": "FSSC 22000",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View FSSC 22000 details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Quality & food safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 179,
+      "title": "ISO 22000",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View ISO 22000 details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Quality & food safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 206,
+      "title": "ISO 9001",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View ISO 9001 details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Quality & food safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 197,
+      "title": "BRCGS",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View BRCGS details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Quality & food safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 195,
+      "title": "HACCP",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View HACCP details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Quality & food safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 184,
+      "title": "FSPCA PCQI",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View FSPCA PCQI details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Quality & food safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 187,
+      "title": "GMP+",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View GMP+ details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Quality & food safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 151,
+      "title": "Aquaculture & agriculture",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Aquaculture & agriculture details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Sustainability",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 185,
+      "title": "RSPO",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View RSPO details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Sustainability",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 188,
+      "title": "ISPO",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View ISPO details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Sustainability",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 214,
+      "title": "ISCC",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View ISCC details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Sustainability",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 188,
+      "title": "EcoVadis",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View EcoVadis details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Sustainability",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 185,
+      "title": "FSC",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View FSC details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Environment & energy",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 199,
+      "title": "ISO 14001",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View ISO 14001 details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Environment & energy",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 180,
+      "title": "ISO 50001",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View ISO 50001 details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Environment & energy",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 201,
+      "title": "PROPER",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View PROPER details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Health & safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 198,
+      "title": "ISO 45001",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View ISO 45001 details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Health & safety",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 192,
+      "title": "SMK3",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View SMK3 details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Laboratory & calibration",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 197,
+      "title": "ISO/IEC 17025",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View ISO/IEC 17025 details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Laboratory & calibration",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 181,
+      "title": "GLP",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View GLP details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Laboratory & calibration",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 231,
+      "title": "Method validation",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Method validation details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Laboratory & calibration",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 195,
+      "title": "Calibration",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Calibration details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Audit & inspection",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 193,
+      "title": "Pre assessment audit",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Pre assessment audit details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Audit & inspection",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 188,
+      "title": "Gap analysis",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Gap analysis details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Audit & inspection",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 208,
+      "title": "Maintenance audit",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Maintenance audit details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Audit & inspection",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 195,
+      "title": "Supplier audit",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Supplier audit details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Audit & inspection",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 191,
+      "title": "Inspection audit",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Inspection audit details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "People & performance",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 226,
+      "title": "Personnel & organization certification",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Personnel & organization certification details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "People & performance",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 196,
+      "title": "Supervisor & leadership",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Supervisor & leadership details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "People & performance",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 216,
+      "title": "5S",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View 5S details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "People & performance",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 207,
+      "title": "TPM & Six Sigma",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View TPM & Six Sigma details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Industry systems",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 190,
+      "title": "IATF 16949",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View IATF 16949 details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Industry systems",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 175,
+      "title": "ISMS & business systems",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View ISMS & business systems details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Industry systems",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 192,
+      "title": "Factory design & layout",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Factory design & layout details",
+        "open": false,
+        "overflow": ""
+      }
+    },
+    {
+      "category": "Industry systems",
+      "focusTopics": 3,
+      "open": true,
+      "overflow": "hidden",
+      "overviewLength": 196,
+      "title": "Medical devices & pharma",
+      "url": "http://127.0.0.1:3100/#layanan",
+      "cleanup": {
+        "focus": "View Medical devices & pharma details",
+        "open": false,
+        "overflow": ""
+      }
+    }
+  ],
+  "mobile": {
+    "closeButton": {
+      "bottom": 108.984375,
+      "height": 36,
+      "left": 314,
+      "right": 350,
+      "top": 72.984375,
+      "width": 36,
+      "x": 314,
+      "y": 72.984375
+    },
+    "dialog": {
+      "bottom": 794,
+      "height": 744.015625,
+      "left": 19,
+      "right": 371,
+      "top": 49.984375,
+      "width": 352,
+      "x": 19,
+      "y": 49.984375
+    },
+    "pageOverflow": false,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  "small": {
+    "close": {
+      "bottom": 71,
+      "height": 36,
+      "left": 229,
+      "right": 265,
+      "top": 35,
+      "width": 36,
+      "x": 229,
+      "y": 35
+    },
+    "dialog": {
+      "bottom": 728,
+      "height": 716,
+      "left": 19,
+      "right": 301,
+      "top": 12,
+      "width": 282,
+      "x": 19,
+      "y": 12
+    },
+    "height": 740,
+    "overflow": false,
+    "width": 320
+  },
+  "search": "ISO17025 opens ISO/IEC 17025 details without navigation",
+  "escape": "Closes and restores focus to View ISO/IEC 17025 details",
+  "logs": []
+}

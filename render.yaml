@@ -1,0 +1,16 @@
+# Optional Blueprint. Manual Dashboard settings are in DEPLOY-RENDER.md.
+services:
+  - type: web
+    name: rei-sistem-preview
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: npm ci --include=dev && npm run check:assets && npm run lint && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    autoDeployTrigger: off
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"

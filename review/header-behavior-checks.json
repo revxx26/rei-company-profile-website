@@ -1,0 +1,28 @@
+[
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "blur": "none",
+    "consultButton": "rgb(13, 51, 125)",
+    "headerClass": "header header-over-hero header-at-top",
+    "heroButton": "rgb(13, 51, 125)",
+    "logoFilter": "none",
+    "phase": "top",
+    "scrollY": 0
+  },
+  {
+    "background": "rgba(16, 36, 49, 0.3)",
+    "blur": "blur(18px)",
+    "headerClass": "header header-over-hero header-scrolled",
+    "phase": "scroll-over-hero",
+    "scrollY": 40,
+    "top": 0
+  },
+  {
+    "blur": "blur(18px)",
+    "foreground": "rgb(20, 39, 72)",
+    "headerClass": "header header-past-hero header-scrolled",
+    "phase": "past-hero",
+    "scrollY": 1450,
+    "top": 0
+  }
+]

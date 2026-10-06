@@ -1,0 +1,81 @@
+{
+  "layout": {
+    "blue": "rgb(13, 51, 125)",
+    "cardBlur": "blur(20px) saturate(1.45)",
+    "leftButton": {
+      "bottom": 754.21875,
+      "height": 54,
+      "left": 18,
+      "right": 72,
+      "top": 700.21875,
+      "width": 54,
+      "x": 18,
+      "y": 700.21875
+    },
+    "monthOutsideBlue": true,
+    "rightButton": {
+      "bottom": 754.21875,
+      "height": 54,
+      "left": 1353,
+      "right": 1407,
+      "top": 700.21875,
+      "width": 54,
+      "x": 1353,
+      "y": 700.21875
+    },
+    "scrollbar": "none"
+  },
+  "glass": {
+    "cardBlur": "blur(20px) saturate(1.45)",
+    "nextBlur": "blur(22px) saturate(1.6)"
+  },
+  "afterNext": {
+    "left": 383,
+    "previousDisabled": false
+  },
+  "headerOnBlue": {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "headerClass": "header header-past-hero header-scrolled header-over-training",
+    "stageTop": -176.015625
+  },
+  "responsive": [
+    {
+      "clientWidth": 305,
+      "left": 6,
+      "pageWidth": 305,
+      "right": 299,
+      "stageWidth": 305,
+      "viewport": 320
+    },
+    {
+      "clientWidth": 753,
+      "left": 18,
+      "pageWidth": 753,
+      "right": 735,
+      "stageWidth": 753,
+      "viewport": 768
+    },
+    {
+      "clientWidth": 1425,
+      "left": 18,
+      "pageWidth": 1425,
+      "right": 1407,
+      "stageWidth": 1425,
+      "viewport": 1440
+    }
+  ],
+  "popup": {
+    "registration": true,
+    "title": "Food safety & laboratory"
+  },
+  "headerOnLight": {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(20, 39, 72)",
+    "overTraining": false
+  },
+  "validation": {
+    "lint": "pass",
+    "build": "pass"
+  }
+}

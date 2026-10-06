@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-06",
+  "desktop": {
+    "viewportWidth": 1440,
+    "clientWidth": 1425,
+    "cardWidth": 329.25,
+    "firstCardLeft": 18,
+    "previousButtonLeft": 18,
+    "completeVisibleCards": 4,
+    "scrollOffsetsAfterNextNextPrevious": [0, 353, 707, 353],
+    "rapidNextClicks": {"clicks": 2, "scrollLeft": 707, "activeIndicator": 3, "nextDisabled": true},
+    "septemberReset": {"scrollLeft": 0, "activeIndicator": 1, "indicatorCount": 11}
+  },
+  "responsive": [
+    {"viewportWidth": 320, "clientWidth": 305, "cardWidth": 281, "gutter": 12, "columns": 1, "pageOverflow": false},
+    {"viewportWidth": 390, "clientWidth": 375, "cardWidth": 351, "gutter": 12, "columns": 1, "pageOverflow": false},
+    {"viewportWidth": 768, "clientWidth": 753, "cardWidth": 346.5, "gutter": 18, "columns": 2, "pageOverflow": false},
+    {"viewportWidth": 1280, "clientWidth": 1265, "cardWidth": 289.25, "gutter": 18, "columns": 4, "pageOverflow": false},
+    {"viewportWidth": 1440, "clientWidth": 1425, "cardWidth": 329.25, "gutter": 18, "columns": 4, "pageOverflow": false}
+  ],
+  "popup": {"title": "Food safety & laboratory", "opened": true, "registrationEnquiryVisible": true},
+  "checks": {"lint": "passed", "productionBuild": "passed"},
+  "screenshot": "training-proportional-desktop.jpg"
+}

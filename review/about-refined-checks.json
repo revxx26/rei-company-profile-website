@@ -1,0 +1,135 @@
+{
+  "responsive": [
+    {
+      "arrowBackground": "rgba(0, 0, 0, 0)",
+      "arrowSize": 36,
+      "docWidth": 305,
+      "numberFont": "39.2px",
+      "scrollWidth": 305,
+      "statBounds": [
+        {
+          "parentWidth": 137,
+          "width": 86.28125
+        },
+        {
+          "parentWidth": 136,
+          "width": 74.53125
+        },
+        {
+          "parentWidth": 137,
+          "width": 106.03125
+        },
+        {
+          "parentWidth": 136,
+          "width": 75.296875
+        }
+      ],
+      "suffixSpace": "pre",
+      "width": 320
+    },
+    {
+      "arrowBackground": "rgba(0, 0, 0, 0)",
+      "arrowSize": 36,
+      "docWidth": 375,
+      "numberFont": "39.2px",
+      "scrollWidth": 375,
+      "statBounds": [
+        {
+          "parentWidth": 172,
+          "width": 86.28125
+        },
+        {
+          "parentWidth": 171,
+          "width": 74.53125
+        },
+        {
+          "parentWidth": 172,
+          "width": 106.03125
+        },
+        {
+          "parentWidth": 171,
+          "width": 75.296875
+        }
+      ],
+      "suffixSpace": "pre",
+      "width": 390
+    },
+    {
+      "arrowBackground": "rgba(0, 0, 0, 0)",
+      "arrowSize": 36,
+      "docWidth": 753,
+      "numberFont": "32px",
+      "scrollWidth": 753,
+      "statBounds": [
+        {
+          "parentWidth": 172,
+          "width": 86.6875
+        },
+        {
+          "parentWidth": 171,
+          "width": 64.171875
+        },
+        {
+          "parentWidth": 171,
+          "width": 89.890625
+        },
+        {
+          "parentWidth": 171,
+          "width": 81.9375
+        }
+      ],
+      "suffixSpace": "pre",
+      "width": 768
+    },
+    {
+      "arrowBackground": "rgba(0, 0, 0, 0)",
+      "arrowSize": 36,
+      "docWidth": 1425,
+      "numberFont": "48px",
+      "scrollWidth": 1425,
+      "statBounds": [
+        {
+          "parentWidth": 312,
+          "width": 104.609375
+        },
+        {
+          "parentWidth": 311,
+          "width": 91.046875
+        },
+        {
+          "parentWidth": 311,
+          "width": 129.625
+        },
+        {
+          "parentWidth": 311,
+          "width": 90.90625
+        }
+      ],
+      "suffixSpace": "pre",
+      "width": 1440
+    }
+  ],
+  "countProof": {
+    "intermediate": [
+      "5",
+      "229",
+      "459",
+      "1"
+    ],
+    "final": [
+      "13",
+      "500",
+      "1,000",
+      "3"
+    ]
+  },
+  "about": {
+    "arrowBackground": "rgba(0, 0, 0, 0)",
+    "arrowSize": 36,
+    "checkIcons": 0,
+    "counterHidden": "auto",
+    "eyebrowLines": 0,
+    "pauseButtons": 0
+  },
+  "console": []
+}

@@ -1,69 +1,147 @@
+import { Text } from "@/components/site-preferences";
+import { HomeHero } from "@/components/home-hero";
+import { SupportedStandards } from "@/components/supported-standards";
+import { AboutGallery } from "@/components/about-gallery";
+import { CompanyProfileLink, VideoHighlights, VideoPlayerProvider } from "@/components/video-highlights";
+import { CompanyStats } from "@/components/company-stats";
+import { ServicesExplorer } from "@/components/services-explorer";
+import { TrainingAgenda } from "@/components/monthly-training-agenda";
+import { NewsPublications } from "@/components/news-publications";
+import { ContactSection } from "@/components/contact-section";
+import { SocialLinks } from "@/components/social-links";
+import { LocalizedAnchor } from "@/components/localized-elements";
 import Image from "next/image";
+import {
+  Sparkles,
+} from "lucide-react";
+import {
+  ConsultationButton,
+  Header,
+  Reveal,
+} from "@/components/site-interactions";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <VideoPlayerProvider>
+      <Header />
+      <main id="main-content">
+        <HomeHero />
+        <SupportedStandards />
+        <section
+          className="section container about-section"
+          id="tentang"
+          aria-labelledby="about-title"
+        >
+          <Reveal className="about-visual">
+            <AboutGallery />
+            <div className="about-caption">
+              <p>
+                <strong><Text value={"Respect. Excellence. Improvement."} /></strong>
+                <br />
+                <Text value={"The values that guide our work."} /></p>
+            </div>
+          </Reveal>
+          <div className="about-copy">
+            <h2 id="about-title"><Text value={"Why REI?"} /></h2>
+            <p>
+              <Text value={"PT REI Sistem Indonesia Group provides training, consultancy, audit and certification support across industry standards and management systems."} /></p>
+            <p>
+              <Text value={"Our expertise covers food safety, quality, sustainability, occupational safety and laboratory management."} /></p>
+            <ul className="about-points">
+              <li>
+                <Text value={"Support across management systems and standards"} /></li>
+              <li>
+                <Text value={"Public and in-house training options"} /></li>
+              <li>
+                <Text value={"Offices in Bogor, Sidoarjo and Medan"} /></li>
+            </ul>
+            <CompanyProfileLink />
+          </div>
+        </section>
+        <CompanyStats />
+        <VideoHighlights />
+        <ServicesExplorer />
+        <TrainingAgenda />
+        <NewsPublications />
+        <ContactSection />
       </main>
-    </div>
+      <footer className="footer">
+        <div className="container">
+          <div className="footer-grid">
+            <div className="footer-brand">
+              <LocalizedAnchor
+                href="#"
+                className="brand"
+                aria-label="REI Sistem Indonesia, back to top"
+              >
+                <Image
+                  src="/images/rei-logo.png"
+                  width={60}
+                  height={60}
+                  alt=""
+                />
+                <span>
+                  <Text value={"REI SISTEM"} /><small><Text value={"INDONESIA GROUP"} /></small>
+                </span>
+              </LocalizedAnchor>
+              <p>
+                <Text value={"Providing Global Recognition"} /><br />
+                <Text value={"and Improvement Systems."} /></p>
+            </div>
+            <div>
+              <h3><Text value={"Explore"} /></h3>
+              <ul>
+                <li>
+                  <a href="#layanan"><Text value={"Services"} /></a>
+                </li>
+                <li>
+                  <a href="#training"><Text value={"Trainings & Events"} /></a>
+                </li>
+                <li>
+                  <a href="#insights"><Text value={"News & insights"} /></a>
+                </li>
+                <li>
+                  <a href="#tentang"><Text value={"About REI"} /></a>
+                </li>
+                <li>
+                  <a href="#kontak"><Text value={"Contact us"} /></a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3><Text value={"Follow REI Sistem"} /></h3>
+              <SocialLinks />
+            </div>
+            <div>
+              <h3><Text value={"Branch offices"} /></h3>
+              <p>
+                <strong><Text value={"Sidoarjo & Eastern Indonesia"} /></strong>
+                <br />
+                <Text value={"Ruko Citra Harmoni, Chi Walk"} /><br />
+                <Text value={"Marina 3, Taman, Sidoarjo"} /></p>
+              <p>
+                <strong><Text value={"Medan & Western Indonesia"} /></strong>
+                <br />
+                <Text value={"Medan, North Sumatra"} /></p>
+              <a className="footer-phone" href="tel:+6282276502448">
+                <Text value={"+62 822-7650-2448"} /></a>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            <span><Text value={"© 2026 PT REI Sistem Indonesia Group."} /></span>
+            <span className="concept-label">
+              <Sparkles size={13} /> <Text value={"Redesign concept · for review"} /></span>
+          </div>
+        </div>
+      </footer>
+      <ConsultationButton
+        className="floating-contact"
+        label="Contact REI Sistem"
+        shortLabel="Consultation"
+        iconOnly
+      />
+    </VideoPlayerProvider>
   );
 }
+
+

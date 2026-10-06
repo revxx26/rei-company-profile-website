@@ -1,0 +1,86 @@
+[
+  {
+    "requestedWidth": 320,
+    "cardWidth": 280,
+    "indicatorCount": 6,
+    "max": 1520,
+    "overflow": false,
+    "partialCount": 0,
+    "railWidth": 280,
+    "scrollLeft": 0,
+    "viewport": 305,
+    "visibleCount": 1
+  },
+  {
+    "requestedWidth": 760,
+    "cardWidth": 280,
+    "indicatorCount": 6,
+    "max": 1520,
+    "overflow": false,
+    "partialCount": 0,
+    "railWidth": 280,
+    "scrollLeft": 0,
+    "viewport": 745,
+    "visibleCount": 1
+  },
+  {
+    "requestedWidth": 768,
+    "cardWidth": 300,
+    "indicatorCount": 5,
+    "max": 1296,
+    "overflow": false,
+    "partialCount": 0,
+    "railWidth": 624,
+    "scrollLeft": 0,
+    "viewport": 753,
+    "visibleCount": 2
+  },
+  {
+    "requestedWidth": 1023,
+    "cardWidth": 300,
+    "indicatorCount": 5,
+    "max": 1296,
+    "overflow": false,
+    "partialCount": 0,
+    "railWidth": 624,
+    "scrollLeft": 0,
+    "viewport": 1008,
+    "visibleCount": 2
+  },
+  {
+    "requestedWidth": 1024,
+    "cardWidth": 308.328125,
+    "indicatorCount": 4,
+    "max": 997,
+    "overflow": false,
+    "partialCount": 0,
+    "railWidth": 1009,
+    "scrollLeft": 0,
+    "viewport": 1009,
+    "visibleCount": 3
+  },
+  {
+    "requestedWidth": 1280,
+    "cardWidth": 289.25,
+    "indicatorCount": 3,
+    "max": 627,
+    "overflow": false,
+    "partialCount": 0,
+    "railWidth": 1265,
+    "scrollLeft": 0,
+    "viewport": 1265,
+    "visibleCount": 4
+  },
+  {
+    "requestedWidth": 1440,
+    "cardWidth": 329.25,
+    "indicatorCount": 3,
+    "max": 707,
+    "overflow": false,
+    "partialCount": 0,
+    "railWidth": 1425,
+    "scrollLeft": 0,
+    "viewport": 1425,
+    "visibleCount": 4
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "headerBlur": "blur(18px)",
+    "headerPosition": "fixed",
+    "headingAlign": "center",
+    "heroHeight": 633,
+    "horizontalOverflow": false,
+    "logosLoaded": true,
+    "pageWidth": 305,
+    "titleInsideHero": true,
+    "width": 320
+  },
+  {
+    "headerBlur": "blur(18px)",
+    "headerPosition": "fixed",
+    "headingAlign": "center",
+    "heroHeight": 633,
+    "horizontalOverflow": false,
+    "logosLoaded": true,
+    "pageWidth": 375,
+    "titleInsideHero": true,
+    "width": 390
+  },
+  {
+    "headerBlur": "blur(18px)",
+    "headerPosition": "fixed",
+    "headingAlign": "center",
+    "heroHeight": 633,
+    "horizontalOverflow": false,
+    "logosLoaded": true,
+    "pageWidth": 753,
+    "titleInsideHero": true,
+    "width": 768
+  },
+  {
+    "headerBlur": "blur(18px)",
+    "headerPosition": "fixed",
+    "headingAlign": "center",
+    "heroHeight": 633,
+    "horizontalOverflow": false,
+    "logosLoaded": true,
+    "pageWidth": 1009,
+    "titleInsideHero": true,
+    "width": 1024
+  },
+  {
+    "headerBlur": "blur(18px)",
+    "headerPosition": "fixed",
+    "headingAlign": "center",
+    "heroHeight": 633,
+    "horizontalOverflow": false,
+    "logosLoaded": true,
+    "pageWidth": 1425,
+    "titleInsideHero": true,
+    "width": 1440
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "initialStats": [
+    {
+      "font": "33.6px",
+      "gap": 0,
+      "plusLeft": 516.140625,
+      "value": "205",
+      "width": 80.640625
+    },
+    {
+      "font": "33.6px",
+      "gap": 0,
+      "plusLeft": 828.140625,
+      "value": "411",
+      "width": 80.640625
+    }
+  ],
+  "finalStats": [
+    {
+      "font": "33.6px",
+      "gap": 0,
+      "plusLeft": 516.140625,
+      "value": "500",
+      "width": 80.640625
+    },
+    {
+      "font": "33.6px",
+      "gap": 0,
+      "plusLeft": 866.71875,
+      "value": "1,000",
+      "width": 119.21875
+    }
+  ],
+  "mobile": {
+    "arrows": [
+      {
+        "blur": "blur(8px)",
+        "width": 36
+      },
+      {
+        "blur": "blur(8px)",
+        "width": 36
+      }
+    ],
+    "overflow": false,
+    "plus": [
+      {
+        "font": "27.44px",
+        "gap": 0
+      },
+      {
+        "font": "27.44px",
+        "gap": 0
+      }
+    ],
+    "width": 390
+  },
+  "mobileVideoClose": {
+    "focus": "Play video: Meet REI Sistem",
+    "iframeCount": 0,
+    "overflow": "",
+    "videoTop": 94.859375
+  },
+  "small": {
+    "overflow": false,
+    "stats": [
+      {
+        "columnWidth": 136.5,
+        "inside": true,
+        "label": "Years of industry experience",
+        "valueWidth": 86.28125
+      },
+      {
+        "columnWidth": 136.5,
+        "inside": true,
+        "label": "Corporate clients",
+        "valueWidth": 81.546875
+      },
+      {
+        "columnWidth": 136.5,
+        "inside": true,
+        "label": "Certifications & services",
+        "valueWidth": 113.046875
+      },
+      {
+        "columnWidth": 136.5,
+        "inside": true,
+        "label": "Offices across Indonesia",
+        "valueWidth": 75.296875
+      }
+    ],
+    "width": 320
+  },
+  "autoplay": {
+    "desktop": "Pause video and time elapsed 2 seconds visible after About link",
+    "mobile": "Pause video and time elapsed 2 seconds visible after About link"
+  },
+  "navigation": "Previous wraps first to fifth; next wraps fifth to first; Escape dismisses client gathering player and restores preview focus"
+}

@@ -1,0 +1,105 @@
+{
+  "areas": [
+    {
+      "count": "5 services",
+      "heading": "Sustainability",
+      "links": 5,
+      "selected": "Sustainability"
+    },
+    {
+      "count": "3 services",
+      "heading": "Environment & energy",
+      "links": 3,
+      "selected": "Environment & energy"
+    },
+    {
+      "count": "2 services",
+      "heading": "Health & safety",
+      "links": 2,
+      "selected": "Health & safety"
+    },
+    {
+      "count": "4 services",
+      "heading": "Laboratory & calibration",
+      "links": 4,
+      "selected": "Laboratory & calibration"
+    },
+    {
+      "count": "5 services",
+      "heading": "Audit & inspection",
+      "links": 5,
+      "selected": "Audit & inspection"
+    },
+    {
+      "count": "4 services",
+      "heading": "People & performance",
+      "links": 4,
+      "selected": "People & performance"
+    },
+    {
+      "count": "4 services",
+      "heading": "Industry systems",
+      "links": 4,
+      "selected": "Industry systems"
+    },
+    {
+      "count": "8 services",
+      "heading": "Quality & food safety",
+      "links": 8,
+      "selected": "Quality & food safety"
+    }
+  ],
+  "search": {
+    "iso22000": [
+      "ISO 22000"
+    ],
+    "iso17025": [
+      "ISO/IEC 17025"
+    ],
+    "fssc22000FromLaboratory": [
+      "FSSC 22000"
+    ],
+    "noMatch": "No services found; clear search restores category"
+  },
+  "consultation": {
+    "area": "Sustainability",
+    "search": "Service enquiry: FSSC22000",
+    "sent": false
+  },
+  "mobileCategory": {
+    "heading": "Laboratory & calibration",
+    "overflow": false,
+    "selected": "Laboratory & calibration"
+  },
+  "responsive": [
+    {
+      "columns": "273px",
+      "ctaBackground": "rgb(13, 51, 125)",
+      "height": 740,
+      "inputWidth": 218,
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "columns": "201.5px 201.5px",
+      "ctaBackground": "rgb(13, 51, 125)",
+      "height": 1024,
+      "inputWidth": 348.390625,
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "columns": "434px 434px",
+      "ctaBackground": "rgb(13, 51, 125)",
+      "height": 1250,
+      "inputWidth": 495,
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "logs": [],
+  "sourceLinks": {
+    "selected": 35,
+    "missingFromSource": 0
+  }
+}

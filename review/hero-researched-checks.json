@@ -1,0 +1,37 @@
+[
+  {
+    "clientWidth": 305,
+    "pageWidth": 305,
+    "titleScroll": 273,
+    "titleWidth": 273,
+    "width": 320
+  },
+  {
+    "clientWidth": 375,
+    "pageWidth": 375,
+    "titleScroll": 343,
+    "titleWidth": 343,
+    "width": 390
+  },
+  {
+    "clientWidth": 753,
+    "pageWidth": 753,
+    "titleScroll": 285,
+    "titleWidth": 284.9375,
+    "width": 768
+  },
+  {
+    "clientWidth": 1009,
+    "pageWidth": 1009,
+    "titleScroll": 403,
+    "titleWidth": 402.6875,
+    "width": 1024
+  },
+  {
+    "clientWidth": 1425,
+    "pageWidth": 1425,
+    "titleScroll": 510,
+    "titleWidth": 510,
+    "width": 1440
+  }
+]
